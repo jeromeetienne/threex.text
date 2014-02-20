@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<script src='../../../vendor/three.js/build/three.min.js'></script>
+<script src='vendor/three.js/build/three-min.js'></script>
 <script src='../threex.text.js'></script>
 <script src="../fonts/droid/droid_serif_bold.typeface.js"></script>
 <body style='margin: 0px; background-color: #bbbbbb; overflow: hidden;'><script>
@@ -16,12 +16,16 @@
 	//		add a text								//
 	//////////////////////////////////////////////////////////////////////////////////
 	
-	var mesh	= new THREEx.Text('THREEx', {
-		font		: "droid serif",
-		weight		: "bold",
-		size		: 1,
-		height		: 0.4,
-	})
+	var mesh	= new THREEx.Text('THREEx')
+	mesh.scale.multiplyScalar(1/2)
+	mesh.position.y	= +0.6
+	scene.add(mesh)
+	var mesh	= new THREEx.Text('is')
+	mesh.scale.multiplyScalar(1/2)
+	scene.add(mesh)
+	var mesh	= new THREEx.Text('Fun !')
+	mesh.scale.multiplyScalar(1/2)
+	mesh.position.y	= -0.6
 	scene.add(mesh)
 		
 	//////////////////////////////////////////////////////////////////////////////////
