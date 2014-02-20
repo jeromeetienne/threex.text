@@ -39,8 +39,8 @@ var mesh	= new THREEx.Text('THREEx')
 scene.add(mesh)
 ```
 
-Here is another example with more parameters. The options are passed directly to 
-```THREE.TextGeometry```. 
+Here is another example with more parameters. The options are passed directly 
+to  ```THREE.TextGeometry```. 
 See [three.js docs](http://threejs.org/docs/#Reference/Extras.Geometries/TextGeometry)
 for details.
 
