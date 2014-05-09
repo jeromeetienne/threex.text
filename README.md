@@ -1,9 +1,8 @@
 threex.text
 ===========
 
-threex.text is a three.js extension which make it easy to add 3d text in your scene.
-You can fine tune lots of parameters to make it fit your needs.
-You can choose the fonts, the size, the bevel, the weight etc...
+threex.text is a [threex game extension for three.js](http://jeromeetienne.github.io/threex/) which makes it easy to add 3d text in your game. You can use it to create a big logo on top of a shop or a big sign of any kind Las Vegas style. Up to you to see :) It is very flexible. You can fine tune lots of parameters to make it fit your needs. You can choose the fonts, the size, the bevel, the weight etc...
+
 
 Show Don't Tell
 ===============
