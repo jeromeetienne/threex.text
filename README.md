@@ -13,6 +13,11 @@ It shows a 3d text.
 \[[view source](https://github.com/jeromeetienne/threex.text/blob/master/examples/requirejs.html)\] :
 It show a 3d text and it is all loaded thru require.js
 
+
+A Screenshot
+============
+[![screenshot](https://raw.githubusercontent.com/jeromeetienne/threex.text/master/examples/images/screenshot-threex-text-512x512.jpg)](http://jeromeetienne.github.io/threex.text/examples/basic.html)
+
 How To Install It
 =================
 
